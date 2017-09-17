@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523E6EE9EAEFC1678C81DD81 /* Pods_Erny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3948CAF7FC4E5E4AE3F5F3E /* Pods_Erny.framework */; };
 		844DFC101F6D9B9F00F52773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DFC0F1F6D9B9F00F52773 /* AppDelegate.swift */; };
 		844DFC121F6D9B9F00F52773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DFC111F6D9B9F00F52773 /* ViewController.swift */; };
-		844DFC151F6D9B9F00F52773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844DFC131F6D9B9F00F52773 /* Main.storyboard */; };
 		844DFC171F6D9B9F00F52773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844DFC161F6D9B9F00F52773 /* Assets.xcassets */; };
 		844DFC1A1F6D9B9F00F52773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844DFC181F6D9B9F00F52773 /* LaunchScreen.storyboard */; };
+		844DFC221F6D9C7100F52773 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 844DFC211F6D9C7100F52773 /* Podfile */; };
+		844DFC241F6DAF2500F52773 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DFC231F6DAF2500F52773 /* SecondViewController.swift */; };
+		844DFC261F6DAFD000F52773 /* ElasticOvalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DFC251F6DAFD000F52773 /* ElasticOvalView.swift */; };
+		844DFC281F6DB01600F52773 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DFC271F6DB01600F52773 /* RecordButton.swift */; };
+		844DFC2A1F6DB04700F52773 /* MySpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DFC291F6DB04700F52773 /* MySpeechRecognizer.swift */; };
+		844DFC2C1F6DB32F00F52773 /* Hints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DFC2B1F6DB32F00F52773 /* Hints.swift */; };
+		845121921F6E096400FDE95C /* ArchivoNarrow-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 845121911F6E096400FDE95C /* ArchivoNarrow-Regular.otf */; };
+		845121941F6E17FF00FDE95C /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845121931F6E17FF00FDE95C /* SubmitButton.swift */; };
+		845121961F6E1CE000FDE95C /* Carlito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845121951F6E1CE000FDE95C /* Carlito-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6297DEC4A6418C70099C07C4 /* Pods-Erny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Erny/Pods-Erny.debug.xcconfig"; sourceTree = "<group>"; };
 		844DFC0C1F6D9B9F00F52773 /* Erny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844DFC0F1F6D9B9F00F52773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844DFC111F6D9B9F00F52773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		844DFC141F6D9B9F00F52773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		844DFC161F6D9B9F00F52773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844DFC191F6D9B9F00F52773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844DFC1B1F6D9B9F00F52773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844DFC211F6D9C7100F52773 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		844DFC231F6DAF2500F52773 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		844DFC251F6DAFD000F52773 /* ElasticOvalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticOvalView.swift; sourceTree = "<group>"; };
+		844DFC271F6DB01600F52773 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		844DFC291F6DB04700F52773 /* MySpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySpeechRecognizer.swift; sourceTree = "<group>"; };
+		844DFC2B1F6DB32F00F52773 /* Hints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hints.swift; sourceTree = "<group>"; };
+		845121911F6E096400FDE95C /* ArchivoNarrow-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArchivoNarrow-Regular.otf"; path = "../../../Downloads/ArchivoNarrow-for-Print/ArchivoNarrow-Regular.otf"; sourceTree = "<group>"; };
+		845121931F6E17FF00FDE95C /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		845121951F6E1CE000FDE95C /* Carlito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Carlito-Regular.ttf"; path = "../../../Downloads/google-crosextrafonts-carlito-20130920/Carlito-Regular.ttf"; sourceTree = "<group>"; };
+		E454E35B494EFB1B5864B4D1 /* Pods-Erny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erny.release.xcconfig"; path = "Pods/Target Support Files/Pods-Erny/Pods-Erny.release.xcconfig"; sourceTree = "<group>"; };
+		F3948CAF7FC4E5E4AE3F5F3E /* Pods_Erny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523E6EE9EAEFC1678C81DD81 /* Pods_Erny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C659148E01BB2838B69179 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6297DEC4A6418C70099C07C4 /* Pods-Erny.debug.xcconfig */,
+				E454E35B494EFB1B5864B4D1 /* Pods-Erny.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		844DFC031F6D9B9E00F52773 = {
 			isa = PBXGroup;
 			children = (
+				844DFC211F6D9C7100F52773 /* Podfile */,
 				844DFC0E1F6D9B9F00F52773 /* Erny */,
 				844DFC0D1F6D9B9F00F52773 /* Products */,
+				08C659148E01BB2838B69179 /* Pods */,
+				E16327894647DEF65F0BF820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +89,27 @@
 			children = (
 				844DFC0F1F6D9B9F00F52773 /* AppDelegate.swift */,
 				844DFC111F6D9B9F00F52773 /* ViewController.swift */,
-				844DFC131F6D9B9F00F52773 /* Main.storyboard */,
 				844DFC161F6D9B9F00F52773 /* Assets.xcassets */,
 				844DFC181F6D9B9F00F52773 /* LaunchScreen.storyboard */,
 				844DFC1B1F6D9B9F00F52773 /* Info.plist */,
+				844DFC231F6DAF2500F52773 /* SecondViewController.swift */,
+				844DFC251F6DAFD000F52773 /* ElasticOvalView.swift */,
+				844DFC271F6DB01600F52773 /* RecordButton.swift */,
+				844DFC291F6DB04700F52773 /* MySpeechRecognizer.swift */,
+				844DFC2B1F6DB32F00F52773 /* Hints.swift */,
+				845121911F6E096400FDE95C /* ArchivoNarrow-Regular.otf */,
+				845121931F6E17FF00FDE95C /* SubmitButton.swift */,
+				845121951F6E1CE000FDE95C /* Carlito-Regular.ttf */,
 			);
 			path = Erny;
+			sourceTree = "<group>";
+		};
+		E16327894647DEF65F0BF820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3948CAF7FC4E5E4AE3F5F3E /* Pods_Erny.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844DFC1E1F6D9B9F00F52773 /* Build configuration list for PBXNativeTarget "Erny" */;
 			buildPhases = (
+				AF06BDBF2E399AEA26D7C66D /* [CP] Check Pods Manifest.lock */,
 				844DFC081F6D9B9F00F52773 /* Sources */,
 				844DFC091F6D9B9F00F52773 /* Frameworks */,
 				844DFC0A1F6D9B9F00F52773 /* Resources */,
+				8DBD7F59E50A544E016284F8 /* [CP] Embed Pods Frameworks */,
+				798F52F5EBE7C8C31E476845 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +174,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845121921F6E096400FDE95C /* ArchivoNarrow-Regular.otf in Resources */,
+				845121961F6E1CE000FDE95C /* Carlito-Regular.ttf in Resources */,
 				844DFC1A1F6D9B9F00F52773 /* LaunchScreen.storyboard in Resources */,
 				844DFC171F6D9B9F00F52773 /* Assets.xcassets in Resources */,
-				844DFC151F6D9B9F00F52773 /* Main.storyboard in Resources */,
+				844DFC221F6D9C7100F52773 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		798F52F5EBE7C8C31E476845 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Erny/Pods-Erny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DBD7F59E50A544E016284F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Erny/Pods-Erny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF06BDBF2E399AEA26D7C66D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		844DFC081F6D9B9F00F52773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844DFC241F6DAF2500F52773 /* SecondViewController.swift in Sources */,
+				844DFC2A1F6DB04700F52773 /* MySpeechRecognizer.swift in Sources */,
 				844DFC121F6D9B9F00F52773 /* ViewController.swift in Sources */,
+				844DFC2C1F6DB32F00F52773 /* Hints.swift in Sources */,
+				844DFC261F6DAFD000F52773 /* ElasticOvalView.swift in Sources */,
+				845121941F6E17FF00FDE95C /* SubmitButton.swift in Sources */,
 				844DFC101F6D9B9F00F52773 /* AppDelegate.swift in Sources */,
+				844DFC281F6DB01600F52773 /* RecordButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		844DFC131F6D9B9F00F52773 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				844DFC141F6D9B9F00F52773 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		844DFC181F6D9B9F00F52773 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -256,6 +355,7 @@
 		};
 		844DFC1F1F6D9B9F00F52773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6297DEC4A6418C70099C07C4 /* Pods-Erny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Erny/Info.plist;
@@ -268,6 +368,7 @@
 		};
 		844DFC201F6D9B9F00F52773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E454E35B494EFB1B5864B4D1 /* Pods-Erny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Erny/Info.plist;
@@ -297,6 +398,7 @@
 				844DFC201F6D9B9F00F52773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
